@@ -3,13 +3,13 @@ import requests
 from googleapiclient.discovery import build
 
 # YouTube API 키 설정
-API_KEY = 'AIzaSyAEHnNKoT_vT2kk9iYNrcGNo3Z3XkzzJrg'
+API_KEY = 'Your API Key'
 
 # YouTube API 클라이언트 생성
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 # YouTube 인기 음악 재생목록 ID
-playlist_id = 'PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI'
+playlist_id = 'playlist_code'
 
 # 재생목록에서 동영상 목록 가져오기
 videos = []
