@@ -87,13 +87,14 @@ def format_view_count(view_count):
 ---
 
 **4. 최종 완성**
-*다음 뉴스*
+
+다음 뉴스
 | title |  link  | content |
 |-------|--------|---------|
 | 서울시립장사시설 추석 성묘 10만여명 몰릴 듯…안전대책 마련 | https://v.daum.net/v/20230908111511676 | 용미리 시립묘지 [서울시 제공. 재판매 및 DB 금지] (서울=연...|
 | ... | ... | ... |
 
-*유튜브 인기급상승 음악*
+유튜브 인기급상승 음악
 | Title | Video URL | Thumbnail URL |
 |--------|--------|---------|
 | KAROL G - MI EX TENÍA RAZÓN (Official Video) | https://www.youtube.com/watch?v=VBcs8DZxBGc | https://i.ytimg.com/vi/VBcs8DZxBGc/default.jpg |
