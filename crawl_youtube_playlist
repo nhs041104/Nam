@@ -2,7 +2,7 @@ import pandas as pd
 from googleapiclient.discovery import build
 
 # YouTube API 키 설정
-API_KEY = '자신의 유튜브 API 코드를 입력하세요.'
+API_KEY = input("자신의 Youtube API KEY를 입력하세요: ")
 
 # YouTube API 클라이언트 생성
 youtube = build('youtube', 'v3', developerKey=API_KEY)
