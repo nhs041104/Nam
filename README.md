@@ -8,5 +8,5 @@ When crawling YouTube, you must obtain your own API KEY.
 4. Check your API KEY and insert it into the API_KEY code.
 
 
-#pip module#
+#pip module
 !pip install pandas requests google-api-python-client beautifulsoup4
