@@ -16,7 +16,7 @@
 - Pandas를 사용한 데이터프레임 생성: pandas 라이브러리를 사용하여 데이터를 데이터프레임 형식으로 변환하고 출력. 데이터프레임은 데이터를 표 형식으로 표시하며, 이 경우에는 크롤링한 뉴스 기사의 정보를 쉽게 관리하고 분석할 수 있도록 함.
 
 ## 수정한 코드
-**1. 다음뉴스**
+# **1. 다음뉴스**
 ```python
 for article in news_data:
   title = article['title'].replace('\n', '').strip()
@@ -33,7 +33,7 @@ for article in news_data:
 
 ---
 
-**2. 유튜브 인기 급상승 음악**
+# **2. 유튜브 인기 급상승 음악**
 ```python
 from googleapiclient.discovery import build
 ```
@@ -45,7 +45,7 @@ youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 ---
 
-**3. 유튜브 재생목록 가져오기**
+# **3. 유튜브 재생목록 가져오기**
 ```python
 API_KEY = 'API_KEY 입력'
 
@@ -86,7 +86,7 @@ def format_view_count(view_count):
 
 ---
 
-**4. 최종 완성**
+# **4. 최종 완성**
 
 다음 뉴스
 | title |  link  | content |
