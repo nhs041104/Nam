@@ -59,11 +59,48 @@ API_KEY = input("자신의 Youtube API KEY를 입력하세요: ")
 playlist_id = input("YouTube 재생목록 코드를 입력하세요: ")
 ```
 
+또한 유튜브의 영상 조회수를 가져오는 과정에서 일의 자리까지 전부 나와 가독성이 떨어졌지만 단위를 설정하는 코드를 추가하며 가독성을 높힘
+```python
+# 영상 조회수 가져오기
+    video_statistics = youtube.videos().list(
+        part='statistics',
+        id=video_id
+    ).execute()
+
+    view_count = int(video_statistics['items'][0]['statistics']['viewCount'])
+```
+
+
+
+```python
+#수정 후
+# 숫자를 만단위로 변환하는 함수 정의 추
+def format_view_count(view_count):
+    if view_count >= 100000000:
+        return f"{view_count // 100000000}억"
+    elif view_count >= 10000:
+        return f"{view_count // 10000}만"
+    else:
+        return str(view_count)
+```
+
 ---
 
 **4. 최종 완성**
 *다음 뉴스*
-|  title |  link  | content |
-|--------|--------|---------|
+| title |  link  | content |
+|-------|--------|---------|
 | 서울시립장사시설 추석 성묘 10만여명 몰릴 듯…안전대책 마련 | https://v.daum.net/v/20230908111511676 | 용미리 시립묘지 [서울시 제공. 재판매 및 DB 금지] (서울=연...|
+| ... | ... | ... |
+
+*유튜브 인기급상승 음악*
+| Title | Video URL | Thumbnail URL |
+|--------|--------|---------|
+| KAROL G - MI EX TENÍA RAZÓN (Official Video) | https://www.youtube.com/watch?v=VBcs8DZxBGc | https://i.ytimg.com/vi/VBcs8DZxBGc/default.jpg |
+| ... | ... | ... |
+
+*유튜브 재생목록*
+| Title | Video URL | Thumbnail URL | View Count |
+|--------|--------|---------|
+| Blueming (Blueming) | https://www.youtube.com/watch?v=I0_ZXHzKysc | https://i.ytimg.com/vi/I0_ZXHzKysc/default.jpg | 1억 |
 | ... | ... | ... |
