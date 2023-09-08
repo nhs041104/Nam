@@ -31,6 +31,8 @@ for article in news_data:
 ```
 다음 뉴스에서 기사를 가져올때 제목과 기사글에 공백, 줄 바꿈 등이 계속 발생하여 replace와 strip을 이용하여 필요없는 공백과 줄바꿈을 전부 지워서 보기편하게 바꿈.
 
+---
+
 **2. 유튜브 인기 급상승 음악**
 ```python
 from googleapiclient.discovery import build
@@ -40,6 +42,8 @@ youtube = build('youtube', 'v3', developerKey=API_KEY)
 ```
 
 다음 뉴스에서 긁어온것 처럼 HTML로 가져오려고 했으나 유튜브의 경우 크롤링 했을때 유튜브의 정보를 가져올수가 없어 직접 유튜브 API를 사용하여 가져오는 방법을 선택.
+
+---
 
 **3. 유튜브 재생목록 가져오기**
 ```python
