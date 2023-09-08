@@ -9,5 +9,4 @@ When crawling YouTube, you must obtain your own API KEY.
 
 
 #pip module#
-
 !pip install pandas requests google-api-python-client beautifulsoup4
