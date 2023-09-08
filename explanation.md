@@ -100,7 +100,7 @@ def format_view_count(view_count):
 | KAROL G - MI EX TENÍA RAZÓN (Official Video) | https://www.youtube.com/watch?v=VBcs8DZxBGc | https://i.ytimg.com/vi/VBcs8DZxBGc/default.jpg |
 | ... | ... | ... |
 
-*유튜브 재생목록*
+유튜브 재생목록
 | Title | Video URL | Thumbnail URL | View Count |
 |--------|--------|---------|--------|
 | Blueming (Blueming) | https://www.youtube.com/watch?v=I0_ZXHzKysc | https://i.ytimg.com/vi/I0_ZXHzKysc/default.jpg | 1억 |
