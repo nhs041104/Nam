@@ -27,7 +27,7 @@ while True:
     playlist_items = youtube.playlistItems().list(
         part='snippet',
         playlistId=playlist_id,
-        maxResults=50,  # 변경 가능
+        maxResults=50,
         pageToken=next_page_token
     ).execute()
 
@@ -57,8 +57,6 @@ for video in videos:
 
     video_data.append([title, video_url, thumbnail_url, formatted_view_count])
 
-# 데이터프레임 생성
+# 데이터프레임 생성, 출력
 df = pd.DataFrame(video_data, columns=['Title', 'Video URL', 'Thumbnail URL', 'View Count'])
-
-# 데이터프레임 출력
 df
