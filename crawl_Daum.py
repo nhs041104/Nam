@@ -54,9 +54,9 @@ def crawl_daum_news_article(url):
 all_news_data = []
 
 # 사용자로부터 검색할 키워드 입력 받기
-desired_keyword = input("검색할 키워드를 입력하세요: ")
+find_keyword = input("검색할 키워드를 입력하세요: ")
 
-news_data = crawl_daum_news_home(news_url, keyword=desired_keyword)
+news_data = crawl_daum_news_home(news_url, keyword=find_keyword)
 
 for article in news_data:
     title = article['title'].replace('\n', '').strip()
