@@ -73,7 +73,6 @@ for article in news_data:
         'content': article_content.replace('\n', '').strip()
     })
 
-
 ################예시 텍스트 데이터
 text_data = str(all_news_data)
 
