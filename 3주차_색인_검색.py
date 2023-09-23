@@ -1,4 +1,3 @@
-```python
 import os
 import re
 
@@ -18,5 +17,4 @@ for root, dirs, files in os.walk(data_folder):
             if search_word in cleaned_content:
                 print("파일 이름:", file)
                 print("본문 내용:", cleaned_content)
-                print("=" * 50)
-```
+                print("\n=\n" * 80)
