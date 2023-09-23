@@ -52,7 +52,9 @@ if search_word in cleaned_content:
 ## 검색 단어 "사랑"
 
 - 검색할 단어를 입력하세요: 사랑
+
 파일 이름: AKMU.txt
+
 본문 내용: Why baby 뭐가문제야 baby
 Woah
 Woah
