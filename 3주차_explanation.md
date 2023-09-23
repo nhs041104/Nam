@@ -69,8 +69,14 @@ df
 |    | 파일 이름 | 가사 |
 |-------|--------|---------|
 | 0 | Christian.txt | Money makes me feel better You told me it was a ticket to hell how come Do you think that .....|
-|-------|--------|---------|
 | 1 | AKMU.txt | Why baby 뭐가문제야 baby Woah Woah Woah woah Hey woah Woah Anyone please Woah Woah woah 제발 사랑 좀 줘요 네가 날 싫어해 하는 걸 알아 나는 서운해 그런 날 왜 너는 못 이해해 You dont understand 난 너를 좋아한다고..... |
-|-------|--------|---------|
 | 2 | Jannabi.txt |사랑하긴 했었나요 스쳐가는 인연이었나요 짧지 않은 우리 함께했던 시간들이 자꾸 내 마음을 가둬두네 yeah 누가 내 가슴에다 불을 질렀나 누가 내 심장에다 못을 박았나 그대의 눈빛은 날 얼어붙게 해 그대여 다시 내게 마음을 주오 Ooh ooh baby I need you..... |
+
+
+## 검색 단어 ""
+
+|    | 파일 이름 | 가사 |
 |-------|--------|---------|
+| 0 | AKMU.txt | Why baby 뭐가문제야 baby Woah Woah Woah woah Hey woah Woah Anyone please Woah Woah woah 제발 사랑 좀 줘요 네가 날 싫어해 하는 걸 알아 나는 서운해 .....|
+| 1 | Jannabi.txt | 사랑하긴 했었나요 스쳐가는 인연이었나요 짧지 않은 우리 함께했던 시간들이 자꾸 내 마음을 가둬두네 yeah 누가 내 가슴에다 불을 질렀나 누가 내 심장에다 못을 박았나 그대의 눈빛은 날 얼어붙게 해 ..... |
+| 2 | Isegye.txt |처음이란건 돌아보면 네가 흘렸던 작은 말들 무심한듯 담았어 나도 모르게 하늘을 봐도 알수없어 네가 말하던 그 계절이 오면 혹시라도 그대가 여기 흰 눈 속에서 보이는 시린기억이 스쳐요 그댈 본다면 나을까요 날 붙잡던 손 날 보던 그 두 눈이..... |
