@@ -18,7 +18,7 @@ for root, dirs, files in os.walk(data_folder):
             cleaned_content = re.sub(r"[^ㄱ-ㅎㅏ-ㅣ가-힣\sA-Za-z]", "", file_content)
 
             if search_word in cleaned_content:
-                file_info_list.append({"파일 이름": file, "본문 내용": cleaned_content})
+                file_info_list.append({"파일 이름": file, "가사": cleaned_content})
                
 df = pd.DataFrame(file_info_list)
 df
