@@ -44,7 +44,7 @@ cleaned_content = re.sub(r"[^ㄱ-ㅎㅏ-ㅣ가-힣\sA-Za-z]", "", file_content)
 
 ```python
 if search_word in cleaned_content:
-    file_info_list.append({"파일 이름": file, "본문 내용": cleaned_content})
+    file_info_list.append({"파일 이름": file, "가사": cleaned_content})
 ```
 이 부분은 검색어인 search_word가 파일 내용(cleaned_content)에 포함되어 있는지 확인하고, 포함되어 있다면 파일 정보를 file_info_list라는 리스트에 추가하는 역할을 한다.
 
