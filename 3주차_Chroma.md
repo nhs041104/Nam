@@ -1,10 +1,10 @@
 # 결과
+
 ```python
 query = "Give Love 부른 가수 누구야?"
 docs = db.similarity_search(query)
 docs[:1]
 ```
-
 [Document(page_content='가수 : 악동뮤지션\n\n노래제목 : Give Love', metadata={'source': '/content/drive/MyDrive/Colab Notebooks/SING/AKMU.txt'})]
 
 ---
@@ -42,9 +42,6 @@ docs = db.similarity_search(query)
 docs[:1]
 ```
 [Document(page_content='가수 : 지올팍\n\n지올팍 노래제목 : Christian', metadata={'source': '/content/drive/MyDrive/Colab Notebooks/SING/Christian.txt'})]
-
----
-
 ```python
 query = "Christain 부른 가수 누구야?"
 docs = db.similarity_search(query)
