@@ -33,3 +33,21 @@ docs = db.similarity_search(query)
 docs[:1]
 ```
 [Document(page_content='가수 : 잔나비\n\n노래제목 : 사랑하긴 했었나요 스쳐가는 인연이었나요 짧지 않은 우리 함께했던 시간들이 자꾸 내 마음을 가둬두네\n\n노래가사 : 사랑하긴 했었나요\n\n스쳐가는 인연이었나요', metadata={'source': '/content/drive/MyDrive/Colab Notebooks/SING/Jannabi.txt'})]
+
+---
+
+```python
+query = "Christain 부른 가수 누구야?"
+docs = db.similarity_search(query)
+docs[:1]
+```
+[Document(page_content='가수 : 지올팍\n\n지올팍 노래제목 : Christian', metadata={'source': '/content/drive/MyDrive/Colab Notebooks/SING/Christian.txt'})]
+
+---
+
+```python
+query = "Christain 부른 가수 누구야?"
+docs = db.similarity_search(query)
+docs[:1]
+```
+
