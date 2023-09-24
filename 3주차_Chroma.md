@@ -42,9 +42,3 @@ docs = db.similarity_search(query)
 docs[:1]
 ```
 [Document(page_content='가수 : 지올팍\n\n지올팍 노래제목 : Christian', metadata={'source': '/content/drive/MyDrive/Colab Notebooks/SING/Christian.txt'})]
-```python
-query = "Christain 부른 가수 누구야?"
-docs = db.similarity_search(query)
-docs[:1]
-```
-
