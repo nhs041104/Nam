@@ -35,7 +35,7 @@ db = Chroma.from_documents(docs, embedding=embeddings,
                                  persist_directory="lyrics_index_hf")
 db.persist()
 
-query = "질문을 입력하세"
+query = "질문을 입력하세요"
 docs = db.similarity_search(query)
 
 docs[:1]
