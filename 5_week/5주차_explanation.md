@@ -146,7 +146,7 @@ SMOOTH를 사용하여 이미지를 부드럽게 만든다.
 
 ---
 
-# 이미지 병합 및 저장
+## 이미지 병합 및 저장
 
 ```python
 from PIL import Image
@@ -173,7 +173,7 @@ paste 메서드를 사용하여 img_01 및 img_02 이미지를 new_im 이미지�
 
 ---
 
-# 이미지를 바이트 배열로 변환
+## 이미지를 바이트 배열로 변환
 
 ```python
 def image_to_byte_array(image_path):
@@ -192,7 +192,7 @@ def함수를 이용하여 이미지 파일 경로를 인수 받고 바이너리 
 
 ---
 
-# Numpy 배열을 이미지로 변환
+## Numpy 배열을 이미지로 변환
 
 ```python
 import numpy as np
