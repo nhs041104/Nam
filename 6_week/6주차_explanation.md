@@ -54,6 +54,8 @@ for article in all_news_data:
     article['summary'] = ' '.join(str(sentence) for sentence in summary)
 ```
 
+---
+
 ## 출력결과
 
 |    | title | link | content | summary |
